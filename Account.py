@@ -1,7 +1,7 @@
-class Transaction:
+class Account:
 
     def __init__(self, balance):
-        self.balance = balance
+        self._balance = balance
 
     def deposit(self, amount):
         if amount <= 0:

@@ -1,10 +1,10 @@
-from Transactions import Transaction
+from Account import Account
 
 class ATM:
 
     if __name__ == "__main__":
-        
-        account = Transaction(0)
+
+        account = Account(0)
 
         while True:
             print("\nATM Machine Simulation")
